@@ -114,8 +114,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: "catppuccin"
-      variation: "mocha"
+      theme: "ayu-mirage"
       mode: dark
   - source: "@quartz-community/remove-draft"
     enabled: true
