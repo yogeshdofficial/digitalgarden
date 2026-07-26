@@ -152,8 +152,11 @@ importers:
       '@quartz-community/unlisted-pages':
         specifier: ^0.1.0
         version: 0.1.0(github-slugger@2.0.0)(hast-util-to-jsx-runtime@2.3.6)(preact@10.29.7)(unified@11.0.5)(vfile@6.0.3)
-      '@quartz-themes/core':
+      '@quartz-themes/ayu-mirage':
         specifier: ^1.0.0
+        version: 1.0.0
+      '@quartz-themes/core':
+        specifier: ^1.0.2
         version: 1.0.2(preact@10.29.7)(unified@11.0.5)(vfile@6.0.3)
       '@quartz-themes/default':
         specifier: ^1.0.0
@@ -1405,6 +1408,9 @@ packages:
         optional: true
       hast-util-to-jsx-runtime:
         optional: true
+
+  '@quartz-themes/ayu-mirage@1.0.0':
+    resolution: {integrity: sha512-KV1bHhLWxIhFSCfkzxUAUIPgR/nYEl+o6KZ5H2mzeAkNz2aF3AVHhoId0JXG1PRCSXj5/zrJE7SkEeDINMjItw==}
 
   '@quartz-themes/core@1.0.2':
     resolution: {integrity: sha512-a8qJ9u7XPSZcJ4vU6LqNpjnL9eQVGV81w4GP7s4jdijOA/0G6t0lTW+MjGqyB6IkzZR3sqlLhsObVrG9HYLzQA==}
@@ -3534,6 +3540,8 @@ snapshots:
     transitivePeerDependencies:
       - unified
       - vfile
+
+  '@quartz-themes/ayu-mirage@1.0.0': {}
 
   '@quartz-themes/core@1.0.2(preact@10.29.7)(unified@11.0.5)(vfile@6.0.3)':
     dependencies:
